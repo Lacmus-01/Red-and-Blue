@@ -173,7 +173,7 @@
 
     try {
       // 2. Отправляем запрос на сервер Supabase (Edge Function)
-      const res = await fetch(SUPABASE_URL + '/functions/v1/vote', {
+      const res = await fetch(SUPABASE_URL + '/functions/v1/hyper-task', {
         method: 'POST',
         headers: {
           'Authorization': 'Bearer ' + SUPABASE_KEY,
